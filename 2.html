@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"  href="bootstrapcdn/boot.css"/>
+<link rel="stylesheet"  href="2.css"/>
+<title> Challange 1: Your Adge in Days </title>
+
+
+</head>
+<body>
+	<script  src="2.js"></script>  
+	<div class="container-1">
+
+ <h2> Challange 1: Your Age In Days</h2>
+ <div class="flex-box-container-1">
+ <div>
+ <button class="btn btn-primary" onclick="AgeDays()">ClickMe</button></div>
+ <div>
+ <button class="btn btn-danger" onclick="reset()">Reset</button></div>
+ </div>
+ <dir class="flex-box-container-1">
+ 	<div id="flex-box-result"></div>
+ </dir>
+ </div>
+
+ <div class="container-2">
+ 	<h2 color="red"> Challange 2: Flower Generator</h2>
+ 	<button class="btn btn-success" id="cat-gen" onclick="GenerateCat()"> Generate Flower </button>
+ 	<div class="flex-box-container-2" id="flex-cat-gen">
+ 	</div>
+ </div>
+
+ <div class="container-3">
+ 	<h2>Challange 3: Rock, Paper, Scissors</h2>
+ 	<div class="flex-box-rps" id="rps">
+ 	<img id="rock" src="rock.jpg" width=150 height=150 onclick="rps(this)">
+ 	<img  id="paper"  src="paper.png" width=150 height=150 onclick="rps(this)">
+ 	<img id="scissors" src="scissors.png" width=150 height=150 onclick="rps(this)">
+ 	</div>
+ </div>
+
+  <div class="container-4">
+  	
+  	<h2>Challange 4:Random Button Color Change</h2>
+  <div class="flex-box-pick-color">
+  	<form action="">
+  		<select name="backdrop" id="background" onchange="ChangeButtonColor(this)">
+	  	
+	  		<option id="green" value="green">Green</option>
+	  		<option id="red" value="red">Red</option>
+	  		<option id="rst" value="reset">Reset</option> 
+  		</select>
+  	</form>
+  	<button class="btn btn-primary" id="btn-1" onclick="changecolor()">Facebook</button>
+  	<button class="btn btn-warning" id="btn-g">Google</button>
+  	<button class="btn btn-danger" id="btn-3">YouTube</button>
+  	<button class="btn btn-success" id="btn-4">Bing</button>
+  </div>
+
+  </div>
+
+
+
+
+
+</body>
+</html> 
